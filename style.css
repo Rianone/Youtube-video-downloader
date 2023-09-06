@@ -47,6 +47,7 @@ header{
     border: none;
     border: 2px solid #0000003a;
     margin-bottom: 3rem;
+    height: 60%;
 }
 .container .content .input button{
     width: 15%;
@@ -70,9 +71,13 @@ header{
     text-align: center;
     color: #0000009d;
 }
+.invalid{
+    color: rgb(221, 44, 44);
+    visibility: hidden;
+}
 
-@media only screen and (max-width: 700px) {
-    .container .content .input button, .container .content .input input {
+@media only screen and (max-width: 730px) {
+    .container .content .input button, .container .content .input input, .invalid {
         font-size: 0.8rem;
     }
     .container .content .heading{
@@ -86,7 +91,8 @@ header{
 @media only screen and (max-width: 400px) {
 
     .container .content .input button,
-    .container .content .input input {
+    .container .content .input input,
+    .invalid {
         font-size: 0.5rem;
     }
 
