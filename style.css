@@ -38,6 +38,7 @@ header{
 }
 .container .content .input {
     width: 80%;
+    display: flex;
 }
 .container .content .input input{
     width: 80%;
@@ -50,17 +51,50 @@ header{
 .container .content .input button{
     width: 15%;
     font-size: 1.2rem;
-    padding: 1rem 2rem;
+    padding: 1rem 2rem; 
     color: #fff;
     border: none;
     background-color: #8A20AF;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .container .content .input button:hover{
     cursor: pointer;
     background: #5c1676 ;
 }
 
-.container .content .input .text-info {
+.container .content .text-info {
+    width: 80%;
     text-align: center;
     color: #0000009d;
+}
+
+@media only screen and (max-width: 700px) {
+    .container .content .input button, .container .content .input input {
+        font-size: 0.8rem;
+    }
+    .container .content .heading{
+        font-size: 2rem;
+    }
+    .container .content .text-info {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .container .content .input button,
+    .container .content .input input {
+        font-size: 0.5rem;
+    }
+
+    .container .content .heading {
+        font-size: 1.5rem;
+    }
+
+    .container .content .text-info {
+        font-size: 0.4rem;
+    }
 }
