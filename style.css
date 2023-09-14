@@ -31,10 +31,13 @@ header{
     flex-direction: column;
     height: 80%;
     border-radius: 20px;
+    text-align: center;
 }
 .container .content .heading{
     font-size: 3rem;
     margin: 3rem 0rem;
+    text-align: center;
+    align-self: center;
 }
 .container .content .input {
     width: 80%;

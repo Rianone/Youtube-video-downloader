@@ -1,0 +1,11 @@
+{
+  "name": "YouDown",
+  "version": "1.0.0",
+  "description": "Download all your favorite youtube videos",
+  "manifest_version": 3,
+  "author": "Rianone Sm, Naomie Elsie",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "YouDown - Best youtube downloader"
+  }
+}
